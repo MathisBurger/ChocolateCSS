@@ -83,4 +83,40 @@
   transform: scale(1.04);
 }
 
+.btn-purple {
+  background: linear-gradient(to right, #831ab7, #8c18c4);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+  padding: 12px 18px 12px 18px;
+  font-size: 1.4em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.btn-purple:hover {
+  filter: brightness(1.2);
+  transform: scale(1.04);
+}
+
+.btn-pink {
+  background: linear-gradient(to right, #B519BD, #D21BDC);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s;
+  padding: 12px 18px 12px 18px;
+  font-size: 1.4em;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 0;
+}
+
+.btn-pink:hover {
+  filter: brightness(1.2);
+  transform: scale(1.04);
+}
+
 /*# sourceMappingURL=main.css.map */
