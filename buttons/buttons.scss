@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@mixin buttonBase($btn-class-name, $linear-left-clr, $linear-right-clr, $font-color) {
+    .#{$btn-class-name} {
+        background: linear-gradient(to right, $linear-left-clr, $linear-right-clr);
+        font-family: 'Roboto', sans-serif;
+        color: $font-color;
+        padding: 7px 13px 7px 13px;
+        border-radius: 5px;
+        border: none;
+        font-size: 1.2em;
+    }
+
+    .#{$btn-class-name} .btn-sm {
+        padding: 7px 13px 7px 13px;
+        font-size: 1.2em;
+    }
+}

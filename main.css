@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.btn-blue {
+  background: linear-gradient(to right, #2144C9, #264BD9);
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 7px 13px 7px 13px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+}
+
+.btn-blue .btn-sm {
+  padding: 10px 10px 10px 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
