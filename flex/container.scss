@@ -1,0 +1,11 @@
+
+@mixin containerShape($class-name, $size) {
+    
+    .#{$class-name} {
+        width: $size;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

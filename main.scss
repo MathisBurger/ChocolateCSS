@@ -16,6 +16,11 @@
 @import "./nav/sidebar/sidebar.scss";
 @import "./nav/sidebar/theme.scss";
 
+// Flex
+@import "./flex/container.scss";
+@import "./flex/row.scss";
+@import "./flex/constants.scss";
+
 
 
 // Buttons
@@ -36,3 +41,14 @@
 @include sidebarTheme(sidebar-grey, #4D4D4D, rgba(0,0,0,0.3), #fff);
 @include sidebarTheme(sidebar-dark, #1d1d1d, rgba(0,0,0,0.4), #fff);
 @include sidebarTheme(sidebar-light, #838383, rgba(0,0,0,0.2), #0f0f0f);
+
+// Flex container
+@include containerShape(container-sm, $sm);
+@include containerShape(container-md, $md);
+@include containerShape(container-lg, $lg);
+
+
+// Flex row
+@include rowShape(row-sm, $sm);
+@include rowShape(row-md, $md);
+@include rowShape(row-lg, $lg);

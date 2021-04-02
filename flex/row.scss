@@ -1,0 +1,11 @@
+
+@mixin rowShape($class-name, $size) {
+    
+    .#{$class-name} {
+        width: $size;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
