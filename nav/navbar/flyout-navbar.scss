@@ -35,15 +35,14 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
-        background: $bg-color;
+        background: white;
         padding: 10px 10% 10px 10%;
         border-radius: 7px;
-        box-shadow: 4px 4px 4px white;
+        box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     }
 
     .flyout-navbar ul li {
         margin-bottom: 10px;
     }
 
-    
 }
