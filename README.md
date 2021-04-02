@@ -16,19 +16,21 @@ ChocolateCSS is an lightweight scss libary, I build for use
 in my personal projects. I wanted to learn more about professional web design. Furthermore I my intention behind this project was, to get rid of css boilerplate code.<br>
 ChocolateCSS is not made for beginners. It is especially made for people, who want to design their web pages or apps very fast. But you need at least a bit of css experience.
 
+<strong>NOTE:</strong> This libary is made for the development of dark themes. It is quite hard to build light themes with it.
+
 # Installation
 
 ---
 Latest release: 
-<a href="">Download</a>
+<a href="https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.0-beta/">Download</a>
 ```css
-@import url("https://github.com/MathisBurger/ChocolateCSS");
+@import url("https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.0-beta/chocolate.min.css");
 ```
 
 # Documentation
 
 ---
-- Buttons
+- <a href="documentation/buttons.md">Buttons</a>
 - Flex
 - Nav
 - Scripts
