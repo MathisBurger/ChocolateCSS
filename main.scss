@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 @import "./buttons/buttons.scss";
 @import "./buttons/sizes.scss";
 @import "./buttons/shadows.scss";
+
+@import "./nav/navbar.scss";
 
 
 // Buttons
@@ -9,3 +13,9 @@
 @include buttonBase(btn-green, #148531, #18ac3a, #fff);
 @include buttonBase(btn-purple, #831ab7, #8c18c4, #fff);
 @include buttonBase(btn-pink, #B519BD, #D21BDC, #fff);
+
+
+// Navbar
+@include navTheme(navbar-grey, #3d3d3d, #161616, rgba(0,0,0,0.6), #fff, rgba(43, 42, 42, 0.2));
+@include navTheme(navbar-dark, #141414, #121212, rgba(0,0,0,0.6), #fff, rgba(10,10,10,0.2));
+@include navTheme(navbar-light, #B3B3B3, #A9A9A9, rgba(0,0,0,0.6), #3d3d3d, rgba(77,77,77,0.2));

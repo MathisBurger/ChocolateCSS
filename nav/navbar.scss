@@ -1,0 +1,61 @@
+
+ @mixin navTheme($class-name, $bg-color, $border-color, $shadow-color, $text-color, $li-shadow) {
+     .#{$class-name} {
+        background: $bg-color;
+        border: 1px solid $border-color;
+        box-shadow: 4px 4px 4px $shadow-color;
+     }
+
+     .#{$class-name} li {
+         margin: 0;
+        height: fit-content;
+        width: fit-content;
+        color: $text-color;
+        background: $bg-color;
+        filter: brightness(1.2);
+        list-style: none;
+        padding: 10px 10px 10px 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px $li-shadow;
+        transition: 0.3s;
+    }
+
+    .#{$class-name} li:hover {
+        filter: brightness(1.4);
+        transform: scale(1.04);
+        box-shadow: 4px 4px 4px $li-shadow;
+    }
+
+     .#{$class-name} li a {
+         text-decoration: none;
+         font-family: 'Roboto', sans-serif;
+         font-size: 1.2em;
+     }
+ }
+
+ .flyout-navbar {
+    position: relative;
+    margin-top: 10px;
+    float: right;
+    height: 70px;
+    width: 40vw;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar-full {
+    width: 99vw !important;
+    float: center !important;
+}
+
+.navbar-half {
+    width: 50vw !important;
+}
+
+.navbar-small {
+    width: 30vw !important;
+}
