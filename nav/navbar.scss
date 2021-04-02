@@ -6,6 +6,17 @@
         box-shadow: 4px 4px 4px $shadow-color;
      }
 
+     .#{$class-name} .navbar-toggler {
+        display: none;
+        background: $bg-color;
+        filter: brightness(1.2);
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 2px 2px 2px $li-shadow;
+    }
+
      .#{$class-name} li {
          margin: 0;
         height: fit-content;
@@ -58,4 +69,25 @@
 
 .navbar-small {
     width: 30vw !important;
+}
+
+.navbar-shown {
+    display: block !important;
+}
+
+@media only screen and (max-width: 680px) {
+    .flyout-navbar {
+        width: 99vw !important;
+        float: center !important;
+        justify-content: flex-start !important;
+    }
+
+    .flyout-navbar ul {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block !important;
+        margin-left: 10px;
+    }
 }
