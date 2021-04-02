@@ -1,5 +1,23 @@
 
-@mixin sidebarTheme($class-name) {
+@mixin sidebarTheme($class-name, $bg-color, $shadow-color, $text-color) {
 
+    .#{$class-name} {
+        background: $bg-color;
+        box-shadow: 2px 2px 2px $shadow-color;
+    }
+
+    .#{$class-name} .sidebar-item {
+        background: $bg-color;
+        filter: brightness(1.4);
+        box-shadow: 1px 1px 1px $shadow-color;
+    }
+
+    .#{$class-name} .sidebar-item:hover {
+        box-shadow: 3px 3px 3px $shadow-color;
+    }
+
+    .#{$class-name} .hidden-content {
+        color: $text-color;
+    }
     
 }

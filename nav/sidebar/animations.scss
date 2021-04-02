@@ -1,0 +1,23 @@
+@import "./constants.scss";
+
+@keyframes sidebar-grow {
+    from {
+        width: $sidebar-min-width;
+    }
+    to {
+        width: $sidebar-full-width;
+    }
+}
+
+@keyframes sidebar-shrink {
+    from {
+        width: $sidebar-full-width;
+    }
+    to {
+        width: $sidebar-min-width;
+    }
+}
+
+.sidebar-shrink {
+    animation-name: sidebar-shrink !important;
+}

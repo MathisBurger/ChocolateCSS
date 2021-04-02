@@ -12,7 +12,9 @@
 @import "./nav/navbar/sizes.scss";
 @import "./nav/navbar/theme.scss";
 
-
+// Sidebar
+@import "./nav/sidebar/sidebar.scss";
+@import "./nav/sidebar/theme.scss";
 
 
 
@@ -28,3 +30,9 @@
 @include navTheme(navbar-grey, #3d3d3d, #161616, rgba(0,0,0,0.6), #fff, rgba(43, 42, 42, 0.2));
 @include navTheme(navbar-dark, #141414, #121212, rgba(0,0,0,0.6), #fff, rgba(10,10,10,0.2));
 @include navTheme(navbar-light, #B3B3B3, #A9A9A9, rgba(0,0,0,0.6), #3d3d3d, rgba(77,77,77,0.2));
+
+
+// Sidebar
+@include sidebarTheme(sidebar-grey, #4D4D4D, rgba(0,0,0,0.3), #fff);
+@include sidebarTheme(sidebar-dark, #1d1d1d, rgba(0,0,0,0.4), #fff);
+@include sidebarTheme(sidebar-light, #838383, rgba(0,0,0,0.2), #0f0f0f);

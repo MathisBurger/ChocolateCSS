@@ -1,0 +1,54 @@
+@import "./constants.scss";
+@import "./animations.scss";
+
+.sidebar {
+    height: 95vh;
+    width: $sidebar-min-width;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+.sidebar-item.sidebar-toggler {
+    margin-top: 8px;
+}
+
+.sidebar-extended {
+    animation-name: sidebar-grow;
+    animation-fill-mode: forwards;
+    animation-duration: .3s;
+}
+
+.sidebar-extended .sidebar-item {
+    width: $sidebar-full-width - 1vw;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.sidebar-extended .hidden-content {
+    display: block;
+    font-size: large;
+}
+
+.sidebar-item {
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    transition: .3s;
+}
+
+.sidebar-item:hover {
+    filter: brightness(1.6);
+    transform: scale(1.05);
+}
