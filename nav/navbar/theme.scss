@@ -43,5 +43,9 @@
          font-family: 'Roboto', sans-serif;
          font-size: 1.2em;
      }
+
+     .wide-navbar, .#{$class-name} {
+         box-shadow: none;
+     }
      
  }
