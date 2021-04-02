@@ -26,6 +26,7 @@
         filter: brightness(1.2);
         list-style: none;
         padding: 10px 10px 10px 10px;
+        margin: auto 5px auto 5px;
         border-radius: 5px;
         box-shadow: 2px 2px 2px $li-shadow;
         transition: 0.3s;
@@ -42,52 +43,79 @@
          font-family: 'Roboto', sans-serif;
          font-size: 1.2em;
      }
- }
 
- .flyout-navbar {
-    position: relative;
-    margin-top: 10px;
-    float: right;
-    height: 70px;
-    width: 40vw;
-    overflow: hidden;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.navbar-full {
-    width: 99vw !important;
-    float: center !important;
-}
-
-.navbar-half {
-    width: 50vw !important;
-}
-
-.navbar-small {
-    width: 30vw !important;
-}
-
-.navbar-shown {
-    display: block !important;
-}
-
-@media only screen and (max-width: 680px) {
-    .flyout-navbar {
+     .flyout-navbar {
+        position: relative;
+        margin-top: 10px;
+        float: right;
+        height: 70px;
+        width: 40vw;
+        overflow: hidden;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .flyout-navbar ul {
+        flex-direction: row;
+        display: flex;
+    }
+    
+    .navbar-full {
         width: 99vw !important;
         float: center !important;
-        justify-content: flex-start !important;
+    }
+    
+    .navbar-half {
+        width: 50vw !important;
+    }
+    
+    .navbar-60 {
+        width: 60vw !important;
+    }
+    
+    .navbar-small {
+        width: 30vw !important;
+    }
+    
+    .navbar-shown {
+        display: flex !important;
     }
 
-    .flyout-navbar ul {
-        display: none;
+     @media only screen and (max-width: 680px) {
+        .flyout-navbar {
+            width: 99vw !important;
+            float: center !important;
+            justify-content: flex-start !important;
+            overflow: visible;
+        }
+    
+        .flyout-navbar ul {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+            background: $bg-color;
+            padding: 10px 10% 10px 10%;
+            border-radius: 7px;
+            box-shadow: 4px 4px 4px $shadow-color;
+        }
+    
+        .flyout-navbar ul li {
+            margin-bottom: 10px;
+    
+        }
+    
+        .navbar-toggler {
+            display: block !important;
+            margin-left: 10px;
+        }
     }
-
-    .navbar-toggler {
-        display: block !important;
-        margin-left: 10px;
-    }
-}
+ }
