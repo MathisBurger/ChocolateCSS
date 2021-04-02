@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-@import "./buttons/buttons.scss";
-@import "./buttons/sizes.scss";
-@import "./buttons/shadows.scss";
-
-@import "./nav/navbar.scss";
-
+@import "./imports.scss";
 
 // Buttons
 @include buttonBase(btn-blue, #1d3bae, #264BD9, #fff);

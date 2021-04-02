@@ -1,0 +1,47 @@
+
+ @mixin navTheme($class-name, $bg-color, $border-color, $shadow-color, $text-color, $li-shadow) {
+     .#{$class-name} {
+        background: $bg-color;
+        border: 1px solid $border-color;
+        box-shadow: 4px 4px 4px $shadow-color;
+     }
+
+     .#{$class-name} .navbar-toggler {
+        display: none;
+        background: $bg-color;
+        filter: brightness(1.2);
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 2px 2px 2px $li-shadow;
+    }
+
+     .#{$class-name} li {
+         margin: 0;
+        height: fit-content;
+        width: fit-content;
+        color: $text-color;
+        background: $bg-color;
+        filter: brightness(1.2);
+        list-style: none;
+        padding: 10px 10px 10px 10px;
+        margin: auto 5px auto 5px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px $li-shadow;
+        transition: 0.3s;
+    }
+
+    .#{$class-name} li:hover {
+        filter: brightness(1.4);
+        transform: scale(1.04);
+        box-shadow: 4px 4px 4px $li-shadow;
+    }
+
+     .#{$class-name} li a {
+         text-decoration: none;
+         font-family: 'Roboto', sans-serif;
+         font-size: 1.2em;
+     }
+     
+ }

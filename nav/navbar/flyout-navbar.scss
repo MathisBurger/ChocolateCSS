@@ -1,0 +1,49 @@
+.flyout-navbar {
+    position: relative;
+    margin-top: 10px;
+    float: right;
+    height: 70px;
+    width: 40vw;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flyout-navbar ul {
+    flex-direction: row;
+    display: flex;
+}
+
+@media only screen and (max-width: 680px) {
+    .flyout-navbar {
+        width: 99vw !important;
+        float: center !important;
+        justify-content: flex-start !important;
+        overflow: visible;
+    }
+
+    .flyout-navbar ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        background: $bg-color;
+        padding: 10px 10% 10px 10%;
+        border-radius: 7px;
+        box-shadow: 4px 4px 4px white;
+    }
+
+    .flyout-navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    
+}
