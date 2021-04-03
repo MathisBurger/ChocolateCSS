@@ -40,6 +40,9 @@ HTML:
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
+Now unzip the scripts.zip and place the `js/` folder whereever you want.
+It is important, because you will need these scripts for further functionalities of the libary.
+
 # Scripts
 
 ---
