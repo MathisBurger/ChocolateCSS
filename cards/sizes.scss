@@ -1,0 +1,19 @@
+@import "card.scss";
+
+.card-sm {
+  @extend .card;
+  width: 400px;
+  height: 200px;
+}
+
+.card-md {
+  @extend .card;
+  width: 450px;
+  height: 550px;
+}
+
+.card-lg {
+  @extend .card;
+  width: 600px;
+  height: 750px;
+}

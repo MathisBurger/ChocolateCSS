@@ -1,0 +1,15 @@
+@import "card.scss";
+
+@mixin cardTheme($class-name, $bg-color, $shadow-color) {
+
+  .card.#{$class-name} {
+    background: $bg-color;
+    box-shadow: 1px 1px 1px $shadow-color;
+    transition: .3s;
+  }
+
+  .card.#{$class-name}:hover {
+    filter: brightness(1.1);
+    box-shadow: 3px 3px 3px $shadow-color;
+  }
+}
