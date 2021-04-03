@@ -23,8 +23,15 @@ ChocolateCSS is not made for beginners. It is especially made for people, who wa
 ---
 Latest release: 
 <a href="https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.0-beta/">Download</a>
+
+CSS:
 ```css
 @import url("https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.0-beta/chocolate.min.css");
+```
+
+HTML:
+```html
+<link rel="stylesheet" href="https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.0-beta/chocolate.min.css">
 ```
 
 <strong>NOTE:</strong> You need following line of code in your `head` tag. If you do not, the whole responsive design will not work.
