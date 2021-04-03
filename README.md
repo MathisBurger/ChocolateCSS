@@ -38,6 +38,6 @@ Latest release:
 ---
 - <a href="documentation/buttons.md">Buttons</a>
 - <a href="documentation/flex.md">Flex</a>
-- Navbar
+- <a href="documentation/navbar.md">Navbar</a>
 - Sidebar
 - Scripts
