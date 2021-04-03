@@ -3,7 +3,9 @@
 This part of the documentation will show you, how to use<br>
 the buttons of ChocolateCSS.
 
-### Buttons and colors
+# Buttons and colors
+
+---
 
 To use buttons with ChocolateCSS is quite easy.
 
@@ -24,7 +26,9 @@ Supported colors:
 - purple
 - pink
 
-### Button sizes
+# Button sizes
+
+---
 
 Furthermore you can change the size of the different buttons with the extra size classes.
 ```html
@@ -36,7 +40,9 @@ You can also use `btn-sm` to reduce the size.
 The default value of the button is `btn-md`.
 
 
-### Button shadows
+# Button shadows
+
+---
 
 If the `box-shadow` if the button does not match your taste,
 you can also change it.
