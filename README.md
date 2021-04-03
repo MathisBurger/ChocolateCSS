@@ -43,6 +43,9 @@ HTML:
 # Documentation
 
 ---
+You do not know how to use ChocolateCSS?<br>
+Check out the easy to use documentation and play arround with it.
+
 - <a href="documentation/buttons.md">Buttons</a>
 - <a href="documentation/flex.md">Flex</a>
 - <a href="documentation/navbar.md">Navbar</a>
