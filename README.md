@@ -40,6 +40,21 @@ HTML:
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```
 
+# Scripts
+
+---
+If you are using some functionallity, that requires javascript, you will need to add these scripts:
+
+Navbar:
+```html
+<script src="js/navbar-toggler.js"></script>
+```
+
+Sidebar:
+```html
+<script src="js/sidebar-toggler.js"></script>
+```
+
 # Documentation
 
 ---
@@ -49,5 +64,5 @@ Check out the easy to use documentation and play arround with it.
 - <a href="documentation/buttons.md">Buttons</a>
 - <a href="documentation/flex.md">Flex</a>
 - <a href="documentation/navbar.md">Navbar</a>
-- Sidebar
+- <a href="documentation/sidebar.md">Sidebar</a>
 - Scripts

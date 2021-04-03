@@ -10,6 +10,7 @@
         background: $bg-color;
         filter: brightness(1.8);
         box-shadow: 1px 1px 1px $shadow-color;
+        color: $text-color;
     }
 
     .#{$class-name} .sidebar-item:hover {
@@ -18,6 +19,7 @@
 
     .#{$class-name} .hidden-content {
         color: $text-color;
+        margin-left: 10px;
     }
     
 }
