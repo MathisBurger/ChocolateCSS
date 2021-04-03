@@ -68,4 +68,4 @@ Check out the easy to use documentation and play arround with it.
 - <a href="documentation/flex.md">Flex</a>
 - <a href="documentation/navbar.md">Navbar</a>
 - <a href="documentation/sidebar.md">Sidebar</a>
-- Scripts
+- <a href="documentation/scripts.md">Scripts</a>
