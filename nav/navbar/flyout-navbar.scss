@@ -1,3 +1,7 @@
+@import "../../screen-sizes.scss";
+
+// defines the basic look of the
+// flyout navbar
 .flyout-navbar {
     position: relative;
     margin-top: 10px;
@@ -12,12 +16,18 @@
     flex-direction: row;
 }
 
+// defines the look of the list view
+// of the flyout navbar
 .flyout-navbar ul {
     flex-direction: row;
     display: flex;
 }
 
-@media only screen and (max-width: 680px) {
+// media query for small screens
+@media only screen and (max-width: $sm) {
+
+    // defines the shape of the flyout navbar on
+    // small screens
     .flyout-navbar {
         width: 99vw !important;
         float: unset !important;
@@ -25,6 +35,8 @@
         overflow: visible;
     }
 
+    // defines the shape of the flyout navbar
+    // list view on small screens
     .flyout-navbar ul {
         display: none;
         flex-direction: column;
@@ -41,6 +53,8 @@
         box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
     }
 
+    // defines the look of an list element 
+    // on small screens
     .flyout-navbar ul li {
         margin-bottom: 10px;
     }

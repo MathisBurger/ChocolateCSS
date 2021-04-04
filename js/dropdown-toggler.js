@@ -1,5 +1,5 @@
 
-
+// forwards to a new menu
 function DropdownForwardMenu(from, to) {
 
     let fromElement = document.getElementById(from);
@@ -13,6 +13,7 @@ function DropdownForwardMenu(from, to) {
 
 }
 
+// goes back to an old menu
 function DropdownBackwardMenu(from, to) {
 
     let fromElement = document.getElementById(from);
@@ -25,6 +26,7 @@ function DropdownBackwardMenu(from, to) {
     toElement.classList.add('old-in');
 }
 
+// removes unused animation classes
 function removeUnusedClasses(element) {
 
     element.classList.contains('old-out') ? element.classList.remove('old-out') : null;

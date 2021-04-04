@@ -1,11 +1,15 @@
 
+// theme constructor for the navbar
  @mixin navTheme($class-name, $bg-color, $border-color, $shadow-color, $text-color, $li-shadow) {
+
+    // defines border, box and background color of the nav theme
      .#{$class-name} {
         background: $bg-color;
         border: 1px solid $border-color;
         box-shadow: 4px 4px 4px $shadow-color;
      }
 
+     // defines the look of the navbar toggler
      .#{$class-name} .navbar-toggler {
         display: none;
         background: $bg-color;
@@ -17,6 +21,7 @@
         box-shadow: 2px 2px 2px $li-shadow;
     }
 
+    // defines the look of an navbar list element
      .#{$class-name} li {
          margin: 0;
         height: fit-content;
@@ -33,15 +38,19 @@
         font-family: "Roboto", sans-serif;
     }
 
+    // defines the look of an navbar list element
+    // if you are hovering over it
     .#{$class-name} li:hover {
         filter: brightness(1.4);
         transform: scale(1.04);
         box-shadow: 4px 4px 4px $li-shadow;
     }
 
-     .#{$class-name} li a {
-         text-decoration: none;
-         font-family: 'Roboto', sans-serif;
-         font-size: 1.2em;
-     }     
+    // defines the style of an anchor tag
+    // inside of an list element
+    .#{$class-name} li a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2em;
+    }     
  }

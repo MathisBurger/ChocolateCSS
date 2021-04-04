@@ -1,7 +1,10 @@
 @import "sizes.scss";
 @import "../screen-sizes.scss";
 
+
+// media query for small sized screens < 680px
 @media only screen and (max-width: $sm) {
+
     .card-sm {
         transform: scale(0.75);
     }
@@ -13,7 +16,9 @@
     }
 }
 
+// media query for small sized screens < 1100px
 @media only screen and (max-width: $md) {
+
     .card-sm {
         transform: scale(0.90);
     }
