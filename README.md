@@ -71,4 +71,5 @@ Check out the easy to use documentation and play arround with it.
 - <a href="documentation/navbar.md">Navbar</a>
 - <a href="documentation/sidebar.md">Sidebar</a>
 - <a href="documentation/cards.md">Cards</a>
+- <a href="documentation/dropdown.md">Dropdown</a>
 - <a href="documentation/scripts.md">Scripts</a>
