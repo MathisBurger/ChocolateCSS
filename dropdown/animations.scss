@@ -17,3 +17,63 @@
         opacity: 1;
     }
 }
+
+.old-out {
+    animation-name: oldOut;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes oldOut {
+    from  {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+.old-in {
+    animation-name: oldIn;
+    animation-duration: .3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes oldIn {
+    from  {
+        left: 0;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+.new-out {
+    animation-name: newOut;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes newOut {
+    from  {
+        right: -10px;
+    }
+    to {
+        right: -100%;
+    }
+}
+
+.new-in {
+    animation-name: newIn;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes newIn {
+    from  {
+        right: -100%;
+    }
+    to {
+        right: -10px;
+    }
+}
