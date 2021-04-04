@@ -59,5 +59,6 @@
 @include rowShape(row-lg, $lg);
 
 // Card
-@include cardTheme(card-white, #fff, rgba(0,0,0,0.4), #000);
+@include cardTheme(card-light, #fff, rgba(0,0,0,0.4), #000);
 @include cardTheme(card-grey, #303030, rgba(0,0,0,0.6), #fff);
+@include cardTheme(card-dark, #161616, rgba(0,0,0,0.6), #fff);
