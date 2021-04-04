@@ -1,0 +1,29 @@
+@import "card.scss";
+
+@mixin cardTheme($class-name, $bg-color, $shadow-color, $text-color) {
+
+  .card.#{$class-name} {
+    background: $bg-color;
+    box-shadow: 1px 1px 1px $shadow-color;
+    transition: .3s;
+  }
+
+  .card.#{$class-name}:hover {
+    filter: brightness(1.1);
+    box-shadow: 3px 3px 3px $shadow-color;
+  }
+
+  .card.#{$class-name} .card-heading {
+    font-family: "Roboto", sans-serif;
+    color: $text-color;
+    text-align: center;
+    word-wrap: normal;
+  }
+
+  .card.#{$class-name} .card-body {
+    color: $text-color;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    word-wrap: normal;
+  }
+}

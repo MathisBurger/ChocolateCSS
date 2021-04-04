@@ -21,6 +21,11 @@
 @import "./flex/row.scss";
 @import "./flex/constants.scss";
 
+// Card
+@import "./cards/sizes.scss";
+@import "./cards/theme.scss";
+@import "./cards/responsive.scss";
+
 
 
 // Buttons
@@ -52,3 +57,8 @@
 @include rowShape(row-sm, $sm);
 @include rowShape(row-md, $md);
 @include rowShape(row-lg, $lg);
+
+// Card
+@include cardTheme(card-light, #fff, rgba(0,0,0,0.4), #000);
+@include cardTheme(card-grey, #303030, rgba(0,0,0,0.6), #fff);
+@include cardTheme(card-dark, #161616, rgba(0,0,0,0.6), #fff);

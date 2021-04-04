@@ -1,0 +1,43 @@
+@import "card.scss";
+
+.card-sm {
+  @extend .card;
+  width: 400px;
+  height: 200px;
+}
+
+.card-sm .card-heading {
+  font-size: 1.3em;
+}
+
+.card-sm .card-body {
+  font-size: 0.8em;
+}
+
+.card-md {
+  @extend .card;
+  width: 450px;
+  height: 550px;
+}
+
+.card-md .card-heading {
+  font-size: 2em;
+}
+
+.card-md .card-body {
+  font-size: 1em;
+}
+
+.card-lg {
+  @extend .card;
+  width: 600px;
+  height: 750px;
+}
+
+.card-lg .card-heading {
+  font-size: 3.5em;
+}
+
+.card-lg .card-body {
+  font-size: 1.2em;
+}
