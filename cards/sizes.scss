@@ -1,43 +1,61 @@
 @import "card.scss";
 
+// implements the .card class 
+// and sets the card size to small
 .card-sm {
   @extend .card;
   width: 400px;
   height: 200px;
 }
 
+// sets the heading font size
+// of the small card
 .card-sm .card-heading {
   font-size: 1.3em;
 }
 
+// sets the font size of the text
+// in card-body of the small card
 .card-sm .card-body {
   font-size: 0.8em;
 }
 
+// implements the .card class 
+// and sets the card size to middle
 .card-md {
   @extend .card;
   width: 450px;
   height: 550px;
 }
 
+// sets the heading font size
+// of the middle card
 .card-md .card-heading {
   font-size: 2em;
 }
 
+// sets the font size of the text
+// in card-body of the middle card
 .card-md .card-body {
   font-size: 1em;
 }
 
+// implements the .card class 
+// and sets the card size to large
 .card-lg {
   @extend .card;
   width: 600px;
   height: 750px;
 }
 
+// sets the heading font size
+// of the large card
 .card-lg .card-heading {
   font-size: 3.5em;
 }
 
+// sets the font size of the text
+// in card-body of the large card
 .card-lg .card-body {
   font-size: 1.2em;
 }

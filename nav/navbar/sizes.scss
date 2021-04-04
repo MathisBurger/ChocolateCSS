@@ -1,19 +1,26 @@
+
+// Full size navbar
 .navbar-full {
     width: 99vw;
     float: center;
 }
 
+// Half size navbar
 .navbar-half {
     width: 50vw;
 }
+
+// navbar fills 60% of the initial viewport
 .navbar-60 {
     width: 60vw;
 }
 
+// navbar fills 30% of the initial viewport
 .navbar-small {
     width: 30vw;
 }
 
+// sets the navbar to shown
 .navbar-shown {
     display: flex !important;
 }

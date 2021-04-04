@@ -1,7 +1,9 @@
+@import "../../screen-sizes.scss";
 
-
-@media only screen and (max-width: 680px) {
+// media query for small screen sizes
+@media only screen and (max-width: $sm) {
     
+    // sets the navbar toggler to shown
     .navbar-toggler {
         display: block !important;
         margin-left: 10px;

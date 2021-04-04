@@ -1,5 +1,9 @@
 
+// defines the main structure of the buttons
+// interface for the buttopn theme
 @mixin buttonBase($btn-class-name, $linear-left-clr, $linear-right-clr, $font-color) {
+
+    // defines the look of the button
     .#{$btn-class-name} {
         background: linear-gradient(to right, $linear-left-clr, $linear-right-clr);
         font-family: 'Roboto', sans-serif;
@@ -13,6 +17,8 @@
         margin: 0;
     }
 
+    // look, if you hover over
+    // the button
     .#{$btn-class-name}:hover {
         filter: brightness(1.2);
         transform: scale(1.04);

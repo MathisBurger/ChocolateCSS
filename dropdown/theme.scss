@@ -1,13 +1,18 @@
 @import "./dropdown.scss";
 @import "./menu.scss";
 
+
+// dropdown theme constructor
 @mixin dropdownTheme($class-name, $bg-color, $text-color) {
     
+    // defines the background color of the dropdown 
     .dropdown.#{$class-name} {
         background: $bg-color;
         box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
     }
 
+    // defines background and text color of 
+    // the dropdown-menu-item
     .#{$class-name} .dropdown-menu-item {
         color: $text-color;
         font-family: "Roboto", sans-serif;

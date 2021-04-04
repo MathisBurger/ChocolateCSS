@@ -1,18 +1,27 @@
 @import "card.scss";
 
+// Theme constructor for the card class
 @mixin cardTheme($class-name, $bg-color, $shadow-color, $text-color) {
 
+
+  // general definition of background
+  // and shadow of the card
   .card.#{$class-name} {
     background: $bg-color;
     box-shadow: 1px 1px 1px $shadow-color;
-    transition: .3s;
   }
 
+  // brightness and shadow
+  // if client hovers over the
+  // card element
   .card.#{$class-name}:hover {
     filter: brightness(1.1);
     box-shadow: 3px 3px 3px $shadow-color;
   }
 
+  // defines the base structure of the 
+  // card heading and sets the 
+  // text color
   .card.#{$class-name} .card-heading {
     font-family: "Roboto", sans-serif;
     color: $text-color;
@@ -20,6 +29,9 @@
     word-wrap: normal;
   }
 
+  // sets the base structure of the
+  // card body and sets the 
+  // text color
   .card.#{$class-name} .card-body {
     color: $text-color;
     text-align: center;

@@ -1,33 +1,35 @@
-// Fonts
+// Fonts, that are used in
+// the libary
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-// Buttons
+
+// Imports for the buttons
 @import "./buttons/buttons.scss";
 @import "./buttons/sizes.scss";
 @import "./buttons/shadows.scss";
 
-// Navbar
+// Imports for the navbar
 @import "./nav/navbar/flyout-navbar.scss";
 @import "./nav/navbar/nav-toggler.scss";
 @import "./nav/navbar/sizes.scss";
 @import "./nav/navbar/theme.scss";
 
-// Sidebar
+// Imports for the Sidebar
 @import "./nav/sidebar/sidebar.scss";
 @import "./nav/sidebar/theme.scss";
 
-// Flex
+// Imports for flex utils
 @import "./flex/container.scss";
 @import "./flex/row.scss";
 @import "./flex/constants.scss";
 
-// Card
+// Imports for the card
 @import "./cards/sizes.scss";
 @import "./cards/theme.scss";
 @import "./cards/responsive.scss";
 
 
-// Dropdown
+// Imports for the dropdown
 @import "./dropdown/dropdown.scss";
 @import "./dropdown/menu.scss";
 @import "./dropdown/theme.scss";
@@ -35,7 +37,7 @@
 
 
 
-// Buttons
+// Button themes
 @include buttonBase(btn-blue, #1d3bae, #264BD9, #fff);
 @include buttonBase(btn-red, #b81e1c, #d62220, #fff);
 @include buttonBase(btn-green, #148531, #18ac3a, #fff);
@@ -43,13 +45,13 @@
 @include buttonBase(btn-pink, #B519BD, #D21BDC, #fff);
 
 
-// Navbar
+// Navbar themes
 @include navTheme(navbar-grey, #3d3d3d, #161616, rgba(0,0,0,0.6), #fff, rgba(43, 42, 42, 0.2));
 @include navTheme(navbar-dark, #141414, #121212, rgba(0,0,0,0.6), #fff, rgba(10,10,10,0.2));
 @include navTheme(navbar-light, #B3B3B3, #A9A9A9, rgba(0,0,0,0.6), #3d3d3d, rgba(77,77,77,0.2));
 
 
-// Sidebar
+// Sidebar themes
 @include sidebarTheme(sidebar-grey, #4D4D4D, rgba(0,0,0,0.3), #fff);
 @include sidebarTheme(sidebar-dark, #1d1d1d, rgba(0,0,0,0.4), #fff);
 @include sidebarTheme(sidebar-light, #838383, rgba(0,0,0,0.2), #0f0f0f);
@@ -65,12 +67,12 @@
 @include rowShape(row-md, $md);
 @include rowShape(row-lg, $lg);
 
-// Card
+// Card themes
 @include cardTheme(card-light, #fff, rgba(0,0,0,0.4), #000);
 @include cardTheme(card-grey, #303030, rgba(0,0,0,0.6), #fff);
 @include cardTheme(card-dark, #161616, rgba(0,0,0,0.6), #fff);
 
-// Dropdown
+// Dropdown themes
 @include dropdownTheme(dropdown-light, rgb(221, 221, 221), #000);
 @include dropdownTheme(dropdown-grey, rgb(153, 153, 153), #fff);
 @include dropdownTheme(dropdown-dark, #232323, #fff);

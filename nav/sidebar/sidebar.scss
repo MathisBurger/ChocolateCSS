@@ -1,6 +1,7 @@
 @import "./constants.scss";
-@import "./animations.scss";
 
+// defines the basic shape and structure of 
+// the general sidebar
 .sidebar {
     height: 95vh;
     width: $sidebar-min-width;
@@ -11,29 +12,32 @@
     align-items: center;
 }
 
+
+// sets the margin of the sidebar toggler
 .sidebar-item.sidebar-toggler {
     margin-top: 8px;
 }
 
-.sidebar-extended {
-    animation-name: sidebar-grow;
-    animation-fill-mode: forwards;
-    animation-duration: .3s;
-}
-
+// sets the width of a sidebar item
 .sidebar-extended .sidebar-item {
     width: $sidebar-full-width - 1vw;
 }
 
+// sets the hidden content to 
+// hidden by default
 .hidden-content {
     display: none;
 }
 
+// modifies the hidden content of the sidebar
+// is extpanded
 .sidebar-extended .hidden-content {
     display: block;
     font-size: large;
 }
 
+// defines the basic shape and structure 
+// of an sidebar item
 .sidebar-item {
     width: 50px;
     height: 50px;
@@ -48,6 +52,8 @@
     transition: .3s;
 }
 
+// defines the look of an sidebar item
+// if you hover over it
 .sidebar-item:hover {
     filter: brightness(1.6);
     transform: scale(1.05);

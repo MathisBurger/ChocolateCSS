@@ -1,6 +1,8 @@
 
+// container theme constructor
 @mixin containerShape($class-name, $size) {
     
+    // sets the structure of the container
     .#{$class-name} {
         width: $size;
         display: flex;

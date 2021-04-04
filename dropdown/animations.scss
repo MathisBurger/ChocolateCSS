@@ -1,5 +1,9 @@
 @import "./dropdown.scss";
 
+// defines the active class 
+// to show the dropdown menu
+// if this class is applied to 
+// a dropdown
 .dropdown.active {
     display: flex;
     animation-name: showDropdown;
@@ -7,6 +11,9 @@
     animation-duration: 1s;
 }
 
+// animation keyframes for active class
+// It animates the slide in effect of 
+// the dropdown
 @keyframes showDropdown {
     from {
         top: -100%;
@@ -18,12 +25,16 @@
     }
 }
 
+// slides out the old menu
+// if you apply this class to menu
 .old-out {
     animation-name: oldOut;
     animation-duration: .3s;
     animation-fill-mode: forwards;
 }
 
+// keyframe to animate the slide out effect
+// of the old menu
 @keyframes oldOut {
     from  {
         left: 0;
@@ -33,12 +44,16 @@
     }
 }
 
+// Slides in the old menu
+// if you apply this class to menu
 .old-in {
     animation-name: oldIn;
     animation-duration: .3s;
     animation-fill-mode: backwards;
 }
 
+// keyframe to animate the slide in effect 
+// of the old menu
 @keyframes oldIn {
     from  {
         left: 0;
@@ -48,12 +63,16 @@
     }
 }
 
+// Slides out the new menu
+// if you apply this class to menu
 .new-out {
     animation-name: newOut;
     animation-duration: .3s;
     animation-fill-mode: forwards;
 }
 
+// keyframe to animate the slide out effect 
+// of the new menu
 @keyframes newOut {
     from  {
         right: -10px;
@@ -63,12 +82,16 @@
     }
 }
 
+// Slides in the new menu
+// if you apply this class to menu
 .new-in {
     animation-name: newIn;
     animation-duration: .3s;
     animation-fill-mode: forwards;
 }
 
+// keyframe to animate the slide in effect
+// of the new menu
 @keyframes newIn {
     from  {
         right: -100%;

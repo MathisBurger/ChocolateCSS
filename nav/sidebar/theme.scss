@@ -1,11 +1,15 @@
 
+// sidebar theme constructor
 @mixin sidebarTheme($class-name, $bg-color, $shadow-color, $text-color) {
 
+    // defines shadow and background of the sidebar
     .#{$class-name} {
         background: $bg-color;
         box-shadow: 2px 2px 2px $shadow-color;
     }
 
+    // defines the background, shadow and text color
+    // of an sidebar item
     .#{$class-name} .sidebar-item {
         background: $bg-color;
         filter: brightness(1.8);
@@ -13,10 +17,14 @@
         color: $text-color;
     }
 
+    // defines the look of an sidebar element
+    // if you hover over it
     .#{$class-name} .sidebar-item:hover {
         box-shadow: 3px 3px 3px $shadow-color;
     }
 
+    // class for content, that is hidden
+    // if sidebar is not expanded
     .#{$class-name} .hidden-content {
         color: $text-color;
         margin-left: 10px;
