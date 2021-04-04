@@ -1,0 +1,19 @@
+@import "./dropdown.scss";
+
+.dropdown.active {
+    display: flex;
+    animation-name: showDropdown;
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes showDropdown {
+    from {
+        top: -100%;
+        opacity: 0.5;
+    }
+    to {
+        top: 2.5%;
+        opacity: 1;
+    }
+}
