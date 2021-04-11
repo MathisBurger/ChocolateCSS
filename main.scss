@@ -49,13 +49,13 @@
 // Navbar themes
 @include navTheme(navbar-grey, #3d3d3d, #161616, rgba(0,0,0,0.6), #fff, rgba(43, 42, 42, 0.2));
 @include navTheme(navbar-dark, #141414, #121212, rgba(0,0,0,0.6), #fff, rgba(10,10,10,0.2));
-@include navTheme(navbar-light, #B3B3B3, #A9A9A9, rgba(0,0,0,0.6), #3d3d3d, rgba(77,77,77,0.2));
+@include navTheme(navbar-light, #cfcdcd, #c2c2c2, rgba(63, 63, 63, 0.6), #2b2a2a, rgba(77,77,77,0.2));
 
 
 // Sidebar themes
 @include sidebarTheme(sidebar-grey, #4D4D4D, rgba(0,0,0,0.3), #fff);
 @include sidebarTheme(sidebar-dark, #1d1d1d, rgba(0,0,0,0.4), #fff);
-@include sidebarTheme(sidebar-light, #838383, rgba(0,0,0,0.2), #0f0f0f);
+@include sidebarTheme(sidebar-light, #aaa9a9, rgba(0,0,0,0.2), #0f0f0f);
 
 // Sidebar sizes
 @include sidebarSize(sidebar-md, 20vw);
@@ -73,11 +73,11 @@
 @include rowShape(row-lg, $lg);
 
 // Card themes
-@include cardTheme(card-light, #fff, rgba(0,0,0,0.4), #000);
+@include cardTheme(card-light, rgb(204, 202, 202), rgba(0,0,0,0.4), #000);
 @include cardTheme(card-grey, #303030, rgba(0,0,0,0.6), #fff);
 @include cardTheme(card-dark, #161616, rgba(0,0,0,0.6), #fff);
 
 // Dropdown themes
-@include dropdownTheme(dropdown-light, rgb(221, 221, 221), #000);
-@include dropdownTheme(dropdown-grey, rgb(153, 153, 153), #fff);
+@include dropdownTheme(dropdown-light, rgb(138, 138, 138), #000);
+@include dropdownTheme(dropdown-grey, rgb(109, 109, 109), #fff);
 @include dropdownTheme(dropdown-dark, #232323, #fff);
