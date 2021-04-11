@@ -75,3 +75,23 @@ Check out the easy to use documentation and play arround with it.
 - <a href="documentation/dropdown.md">Dropdown</a>
 - <a href="documentation/scripts.md">Scripts</a>
 
+
+# Usage with React
+
+First, you need to import the `chocolate.min.css` file into your `index.html` in the `public/` folder.
+
+Now you are able to use the pure css in your React app.
+
+Using scripts is a bit more trickier than the css.
+
+```jsx
+componentDidMount() {
+       const script = document.createElement("script");
+       script.src = "/sidebar-toggler.js";
+       document.body.appendChild(script);
+   }
+```
+
+You can use the `componentDidMount` react hook to load the script correctly.
+Just implement it into your React component and you are good to go
+
