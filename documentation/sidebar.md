@@ -76,3 +76,15 @@ It is like an default sidebar item, but wiith the extra class `sidebar-toggler`.
 If you click it, the sidebar will extend. If you click it again, it will shrink to it start size.
 
 <strong>NOTE:</strong> You will need to add the `sidebar-toggler.js` script. It`s usage is descriped in the <a href="./scripts.md">scripts documentation</a>. 
+
+
+# Sidebar sizes
+
+There are different sizes of the sidebar availible.
+
+- `sidebar-md`
+- `sidebar-lg`
+
+There is no `sidebar-sm` because this is the default size.
+You can add this class to the sidebar `div`.
+<strong>NOTE:</strong> The size has only an effect on the extended sidebar.
