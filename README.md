@@ -22,7 +22,7 @@ ChocolateCSS is not made for beginners. It is especially made for people, who wa
 
 ---
 Latest release: 
-<a href="https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.2/">Download</a>
+<a href="https://github.com/MathisBurger/ChocolateCSS/releases/download/v1.0.3/">Download</a>
 
 Download the latest release and import it in your html or 
 css by using the following lines of code.
