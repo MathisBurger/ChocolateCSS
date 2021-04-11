@@ -4,7 +4,8 @@
 // the general sidebar
 .sidebar {
     height: 95vh;
-    width: $sidebar-min-width;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;

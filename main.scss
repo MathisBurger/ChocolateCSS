@@ -17,6 +17,7 @@
 // Imports for the Sidebar
 @import "./nav/sidebar/sidebar.scss";
 @import "./nav/sidebar/theme.scss";
+@import "./nav/sidebar/sizes.scss";
 
 // Imports for flex utils
 @import "./flex/container.scss";
@@ -55,6 +56,10 @@
 @include sidebarTheme(sidebar-grey, #4D4D4D, rgba(0,0,0,0.3), #fff);
 @include sidebarTheme(sidebar-dark, #1d1d1d, rgba(0,0,0,0.4), #fff);
 @include sidebarTheme(sidebar-light, #838383, rgba(0,0,0,0.2), #0f0f0f);
+
+// Sidebar sizes
+@include sidebarSize(sidebar-md, 20vw);
+@include sidebarSize(sidebar-lg, 25vw);
 
 // Flex container
 @include containerShape(container-sm, $sm);

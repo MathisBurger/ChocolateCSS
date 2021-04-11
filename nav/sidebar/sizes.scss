@@ -1,0 +1,9 @@
+
+// this constructor defines
+// the size of the extended sidebar
+@mixin sidebarSize($class-name, $width) {
+    
+    .#{$class-name}.sidebar-extended .sidebar-item {
+        width: $width;
+    }
+}
