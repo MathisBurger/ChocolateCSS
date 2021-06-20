@@ -14,7 +14,7 @@ To use buttons with ChocolateCSS is quite easy.
 ```
 
 The final result will look like this:
-<div align="center"><img src="../.media/btn-blue.PNG"></div>
+<div align="center"><img src="../../.media/btn-blue.PNG"></div>
 
 `btn-` is the base of the button classes. If you want to use other colors then blue, you need to change `blue` to another
 color. For example: `btn-red`.
@@ -56,8 +56,8 @@ You can also use `btn-shadow-md` and `btn-shadow-sm`.
 Default value is `btn-shadow-sm`.
 
 <div align="center">
-    <img src="../.media/btn-default-shadow.PNG">
-    <img src="../.media/btn-shadow-lg.PNG">
+    <img src="../../.media/btn-default-shadow.PNG">
+    <img src="../../.media/btn-shadow-lg.PNG">
 </div>
 
 The left button shows the default shadow. The right one contains the extra class `btn-shadow-lg`.
