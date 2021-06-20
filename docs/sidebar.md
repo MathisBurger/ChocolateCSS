@@ -4,7 +4,7 @@ This part of the documentation will show you how to how to
 use the built in Sidebar of ChocolateCSS.
 
 <div align="center">
-    <img src="../../.media/sidebar-default.PNG" height="100">
+    <img src="../.media/sidebar-default.PNG" height="100">
 <hr>
 </div>
 

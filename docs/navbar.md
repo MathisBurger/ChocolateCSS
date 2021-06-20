@@ -6,7 +6,7 @@ top navbar of ChocolateCSS.
 # Flyout navbar
 
 <div align="center">
-    <img src="../../.media/default-flyout-navbar.PNG" height="80">
+    <img src="../.media/default-flyout-navbar.PNG" height="80">
 </div>
 
 ---
