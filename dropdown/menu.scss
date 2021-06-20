@@ -1,0 +1,38 @@
+
+// definition of the dropdown menu
+// It defines the base structure
+.dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+// extends the .dropdown-menu class
+// and moves the menu into the invisible area
+.dropdown-submenu {
+    @extend .dropdown-menu;
+    position: absolute;
+    right: -100%;
+}
+
+// defines the basic structure of
+// the dropdown menu items
+.dropdown-menu-item {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    transition: .3s;
+}
+
+// changes the brightness 
+// if you hover over a 
+// dropdown menu item
+.dropdown-menu-item:hover {
+    filter: brightness(2);
+}

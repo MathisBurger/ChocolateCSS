@@ -1,3 +1,15 @@
+
+// static structure of a card
 .card {
   border-radius: 10px;
+  overflow: hidden;
+  transition: .3s;
+}
+
+// this is the class for the main
+// body of a card. It spefifies
+// width and margin to heading.
+.card-body {
+  margin-top: 3%;
+  width: 100%;
 }

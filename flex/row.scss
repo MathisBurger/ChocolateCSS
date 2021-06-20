@@ -1,6 +1,8 @@
 
+// row theme constructor
 @mixin rowShape($class-name, $size) {
     
+    // sets the structure of the row
     .#{$class-name} {
         width: $size;
         display: flex;
