@@ -65,7 +65,7 @@ You do not know how to use ChocolateCSS?<br>
 Check out the easy to use documentation and play arround with it.
 
 - <a href="docs/buttons.md">Buttons</a>
-- <a href="documentation/flex/README">Flex</a>
-- <a href="documentation/navbar/README.md">Navbar</a>
-- <a href="documentation/sidebar/README.md">Sidebar</a>
-- <a href="documentation/scripts/README.md">Scripts</a>
+- <a href="docs/flex.md">Flex</a>
+- <a href="docs/navbar.md">Navbar</a>
+- <a href="docs/sidebar.md">Sidebar</a>
+- <a href="docs/scripts.md">Scripts</a>
